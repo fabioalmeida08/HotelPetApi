@@ -1,10 +1,5 @@
-# json-server-base
-
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
-
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
 
 ### Cadastro
 
@@ -22,3 +17,48 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### retornar todos os pets 
+
+GET /pets
+
+### registar pet
+
+POST /pets
+
+o usuário precisa estar autenticado para realizar o cadastro
+
+registro do pet precisa ir com id do dono
+
+``` 
+{
+	"name" : "Rex",
+	"userId: 2
+}
+```
+
+### retornar todos os dados de um user e seus pets
+
+GET /users/{userId}?_embed=pets
+
+### editar info de algum pet
+
+o usuário precisa estar autenticado para realizar as alterações do pet
+
+PUT /pets/{petId}
+
+o corpo da requisição precisa ir com a referência do id do dono
+
+```
+{
+	"name" : "Rex",
+	"userId" : 4
+}
+```
+### deletar pet 
+
+o usuário precisa estar autenticado para deletar os pets
+
+DELETE /pets/{petId}
+
+
