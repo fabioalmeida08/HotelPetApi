@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "kenzinhooo@mail.com",
+      "password": "$2a$10$HZTTXT9TRfB/2iEkTw4JMuwdqNL3Wyf6eyNMR6X5SanKNydiUYU7y",
+      "name": "atelie",
+      "id": 2
+    },
+    {
+      "email": "kenzinho3oo@mail.com",
+      "password": "$2a$10$5vdfgb3IELNAQJjZ7HDZsuMSZN84a3QH9XcTfQW7NG55fsOZ3zaKO",
+      "name": "atelie",
+      "admin": "true",
+      "id": 3
+    },
+    {
+      "email": "kenzinhoo@mail.com",
+      "password": "$2a$10$CRiNI.1WnZsCHzbuKhrHheAnD1wTAkn5HDBdiLYTj/z1NQZZ3xm.u",
+      "name": "atelie",
+      "admin": "true",
+      "id": 4
+    }
+  ],
+  "pets": [
+    {
+      "name": "jurandir3",
+      "userId": 4,
+      "id": 1
+    },
+    {
+      "name": "cavalo2",
+      "id": 2
+    },
+    {
+      "name": "ler um livro",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "jurandir3",
+      "userId": 4,
+      "id": 4
+    }
+  ]
+}
