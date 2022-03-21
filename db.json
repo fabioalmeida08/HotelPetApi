@@ -1,8 +1,50 @@
 {
   "users": [
-
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$7nPxG86uPIvGvO2KS4n2xuaCtePRDafWgcvFIQTqxD2KHDlMtpVxi",
+      "name": "Vilsinho",
+      "admin": true,
+      "id": 1
+    },
+    {
+      "email": "user@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Gorimar",
+      "id": 2
+    }
   ],
   "pets": [
-  
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pomba",
+      "specie": "Aves",
+      "name": "Archimedes",
+      "hospedado": false,
+      "status": [],
+      "mimos": [],
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pomba",
+      "specie": "Aves",
+      "name": "Archimedes",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [],
+      "userId": 2,
+      "id": 2
+    }
   ]
 }
