@@ -463,6 +463,30 @@
       ],
       "userId": 13,
       "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 13,
+      "id": 2
     }
 
   ]
