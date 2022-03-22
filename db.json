@@ -5,13 +5,105 @@
       "password": "$2a$10$7nPxG86uPIvGvO2KS4n2xuaCtePRDafWgcvFIQTqxD2KHDlMtpVxi",
       "name": "Vilsinho",
       "admin": true,
+      "tel": "(00) 0000-0000",
+      "address": "Av. Sei lá",
       "id": 1
     },
     {
       "email": "user@mail.com",
       "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
       "name": "Gorimar",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Logo ali",
       "id": 2
+    },
+    {
+      "email": "vilson@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Vilson",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Sei lá",
+      "id": 3
+    },
+    {
+      "email": "maria@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Maria",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Eai familia",
+      "id": 4
+    },
+    {
+      "email": "rafael@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Rafael",
+      "tel": "(00) 0000-0000",
+      "address": "Av. One piece",
+      "id": 5
+    },
+    {
+      "email": "bruna@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Bruna",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Bom dia",
+      "id": 6
+    },
+    {
+      "email": "joao@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "João",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Mavelvete",
+      "id": 7
+    },
+    {
+      "email": "fabio@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Fábio",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Maromba",
+      "id": 8
+    },
+    {
+      "email": "igor@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Igor",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Burnout",
+      "id": 9
+    },
+    {
+      "email": "chris@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Chris",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Todo mundo odeia",
+      "id": 10
+    },
+    {
+      "email": "isa@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Isa",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Sem br",
+      "id": 11
+    },
+    {
+      "email": "hudon@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Hudson",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Mago",
+      "id": 12
+    },
+    {
+      "email": "gabriel@mail.com",
+      "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
+      "name": "Gabriel",
+      "tel": "(00) 0000-0000",
+      "address": "Av. Ligeirinho",
+      "id": 13
     }
   ],
   "pets": [
@@ -23,16 +115,49 @@
       "name": "Archimedes",
       "hospedado": false,
       "status": [],
-      "mimos": [],
-      "userId": 2,
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        },
+        {
+          "type": "Span",
+          "done": false
+        }
+      ],
+      "userId": 3,
       "id": 1
     },
     {
       "size": "Pequeno",
+      "age": 1,
+      "race": "De rua mesmo",
+      "specie": "Gato",
+      "name": "Pericles",
+      "hospedado": true,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "size": "Grande",
       "age": 20,
-      "race": "Pomba",
-      "specie": "Aves",
-      "name": "Archimedes",
+      "race": "Crocodilo",
+      "specie": "Reptil",
+      "name": "Boquinha",
       "hospedado": false,
       "status": [
         {
@@ -42,9 +167,303 @@
           "time": "9:30"
         }
       ],
-      "mimos": [],
-      "userId": 2,
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 4,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 5,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 6,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 6,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 7,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 8,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 8,
+      "id": 2
+    },    
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 9,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 10,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 11,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 12,
+      "id": 2
+    },
+    {
+      "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [
+        {
+          "emoji": ":cego:",
+          "activity": "play",
+          "description": "fugiu",
+          "time": "9:30"
+        }
+      ],
+      "mimos": [
+        {
+          "type": "Sortidos",
+          "done": true
+        }
+      ],
+      "userId": 13,
       "id": 2
     }
+
   ]
 }
