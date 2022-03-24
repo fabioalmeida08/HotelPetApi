@@ -54,7 +54,7 @@
       "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
       "name": "João",
       "phone": "(00) 0000-0000",
-      "address": "Av. Mavelvete",
+      "address": "Av. Marvete",
       "id": 7
     },
     {
@@ -131,7 +131,7 @@
     {
       "size": "Pequeno",
       "age": 1,
-      "race": "De rua mesmo",
+      "race": "SRD",
       "specie": "Gato",
       "name": "Pericles",
       "hospedado": true,
@@ -153,11 +153,11 @@
       "id": 2
     },
     {
-      "size": "Grande",
-      "age": 20,
-      "race": "Crocodilo",
+      "size": "Medio",
+      "age": 4,
+      "race": "Python",
       "specie": "Reptil",
-      "name": "Boquinha",
+      "name": "Python",
       "hospedado": true,
       "status": [
         {
@@ -170,7 +170,7 @@
       "mimos": [
         {
           "type": "Sortidos",
-          "done": true
+          "done": false
         }
       ],
       "userId": 3,
@@ -179,9 +179,9 @@
     {
       "size": "Pequeno",
       "age": 20,
-      "race": "Pinscher",
-      "specie": "Cachorro",
-      "name": "Rex",
+      "race": "Jacaré",
+      "specie": "Pre-historico",
+      "name": "Loki",
       "hospedado": false,
       "status": [
         {
@@ -202,10 +202,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
-      "specie": "Cachorro",
-      "name": "Rex",
+      "age": 7,
+      "race": "Maritaca",
+      "specie": "Aves",
+      "name": "Rodolfo",
       "hospedado": false,
       "status": [
         {
@@ -226,10 +226,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
-      "specie": "Cachorro",
-      "name": "Rex",
+      "age": 5,
+      "race": "Papagaio",
+      "specie": "Aves",
+      "name": "Kevin",
       "hospedado": false,
       "status": [
         {
@@ -250,10 +250,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
-      "specie": "Cachorro",
-      "name": "Rex",
+      "age": 1,
+      "race": "Sphynx cat",
+      "specie": "Gato",
+      "name": "Bills",
       "hospedado": true,
       "status": [
         {
@@ -265,8 +265,8 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
-          "done": true
+          "type": "Spa",
+          "done": false
         }
       ],
       "userId": 6,
@@ -274,10 +274,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
-      "specie": "Cachorro",
-      "name": "Rex",
+      "age": 8,
+      "race": "Persian cat",
+      "specie": "Gato",
+      "name": "Spice",
       "hospedado": false,
       "status": [
         {
@@ -287,18 +287,13 @@
           "time": "9:30"
         }
       ],
-      "mimos": [
-        {
-          "type": "Sortidos",
-          "done": true
-        }
-      ],
+      "mimos": [],
       "userId": 7,
       "id": 8
     },
     {
       "size": "Pequeno",
-      "age": 20,
+      "age": 10,
       "race": "Pinscher",
       "specie": "Cachorro",
       "name": "Rex",
@@ -322,10 +317,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
+      "age": 12,
       "race": "Pinscher",
       "specie": "Cachorro",
-      "name": "Rex",
+      "name": "Penelope",
       "hospedado": true,
       "status": [
         {
@@ -338,18 +333,22 @@
       "mimos": [
         {
           "type": "Sortidos",
-          "done": true
+          "done": false
+        },
+        {
+          "type": "Spa",
+          "done": false
         }
       ],
       "userId": 8,
       "id": 10
     },
     {
-      "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
+      "size": "Grande",
+      "age": 8,
+      "race": "Rottweiler",
       "specie": "Cachorro",
-      "name": "Rex",
+      "name": "Thor",
       "hospedado": false,
       "status": [
         {
@@ -370,10 +369,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
-      "specie": "Cachorro",
-      "name": "Rex",
+      "age": 8,
+      "race": "SRD",
+      "specie": "Gato",
+      "name": "Mora",
       "hospedado": false,
       "status": [
         {
@@ -394,10 +393,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
+      "age": 3,
+      "race": "Liasa",
       "specie": "Cachorro",
-      "name": "Rex",
+      "name": "Inacio",
       "hospedado": true,
       "status": [
         {
@@ -418,10 +417,10 @@
     },
     {
       "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
-      "specie": "Cachorro",
-      "name": "Rex",
+      "age": 3,
+      "race": "SRD",
+      "specie": "Gato",
+      "name": "Nina",
       "hospedado": false,
       "status": [
         {
@@ -441,11 +440,11 @@
       "id": 14
     },
     {
-      "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
+      "size": "Grande",
+      "age": 7,
+      "race": "Labrador",
       "specie": "Cachorro",
-      "name": "Rex",
+      "name": "Bento",
       "hospedado": false,
       "status": [
         {
@@ -465,11 +464,11 @@
       "id": 15
     },
     {
-      "size": "Pequeno",
-      "age": 20,
-      "race": "Pinscher",
+      "size": "Grande",
+      "age": 9,
+      "race": "Golden",
       "specie": "Cachorro",
-      "name": "Rex",
+      "name": "Lucky",
       "hospedado": true,
       "status": [
         {
@@ -482,7 +481,11 @@
       "mimos": [
         {
           "type": "Sortidos",
-          "done": true
+          "done": false
+        },
+        {
+          "type": "Spa",
+          "done": false
         }
       ],
       "userId": 13,
