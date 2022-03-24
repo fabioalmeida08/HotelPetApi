@@ -117,11 +117,11 @@
       "status": [],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         },
         {
-          "type": "Span",
+          "service": "Span",
           "done": false
         }
       ],
@@ -145,7 +145,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -169,7 +169,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": false
         }
       ],
@@ -193,7 +193,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -217,7 +217,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -241,7 +241,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -265,7 +265,7 @@
       ],
       "mimos": [
         {
-          "type": "Spa",
+          "service": "Spa",
           "done": false
         }
       ],
@@ -308,7 +308,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -332,11 +332,11 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": false
         },
         {
-          "type": "Spa",
+          "service": "Spa",
           "done": false
         }
       ],
@@ -360,7 +360,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -384,7 +384,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -408,7 +408,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -432,7 +432,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -456,7 +456,7 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": true
         }
       ],
@@ -480,11 +480,11 @@
       ],
       "mimos": [
         {
-          "type": "Sortidos",
+          "service": "Sortidos",
           "done": false
         },
         {
-          "type": "Spa",
+          "service": "Spa",
           "done": false
         }
       ],
