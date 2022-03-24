@@ -6,7 +6,7 @@
       "name": "Vilsinho",
       "admin": true,
       "phone": "(00) 0000-0000",
-      "address": "Av. Sei lá",
+      "address": "Av. Bons Estudos ai pra ti",
       "id": 1
     },
     {
@@ -22,7 +22,7 @@
       "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
       "name": "Vilson",
       "phone": "(00) 0000-0000",
-      "address": "Av. Sei lá",
+      "address": "Av. Tudo cerrto",
       "id": 3
     },
     {
@@ -54,7 +54,7 @@
       "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
       "name": "João",
       "phone": "(00) 0000-0000",
-      "address": "Av. Marvete",
+      "address": "Av. Mavelvete",
       "id": 7
     },
     {
@@ -86,7 +86,7 @@
       "password": "$2a$10$ZS6mYHW/kHdekhXreri72.9C22D9RClEqQWKjncpAzRQhJ09QmTU2",
       "name": "Isa",
       "phone": "(00) 0000-0000",
-      "address": "Av. Sem br",
+      "address": "Av. Figma Master",
       "id": 11
     },
     {
@@ -113,15 +113,37 @@
       "race": "Pomba",
       "specie": "Aves",
       "name": "Archimedes",
-      "hospedado": false,
-      "status": [],
+      "hospedado": true,
+      "status": [
+        {
+          "activity": "Eat",
+          "description": "Comeu ração Prime",
+          "time": "7:30"
+        },
+        {
+          "activity": "Cantou",
+          "description": "Cantou o hino do j",
+          "time": "10:00"
+        },
+        {
+          "activity": "Falou",
+          "description": "Nescau é melhor que Toddy",
+          "time": "13:00"
+        },
+        {
+          "activity": "Limpou",
+          "description": "Se deu um banho de saliva",
+          "time": "16:00"
+        },
+        {
+          "activity": "Bebeu",
+          "description": "Se hidratou",
+          "time": "16:30"
+        }
+      ],
       "mimos": [
         {
           "service": "Sortidos",
-          "done": true
-        },
-        {
-          "service": "Span",
           "done": false
         }
       ],
@@ -131,21 +153,40 @@
     {
       "size": "Pequeno",
       "age": 1,
-      "race": "SRD",
+      "race": "De rua mesmo",
       "specie": "Gato",
       "name": "Pericles",
       "hospedado": true,
       "status": [
         {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
+          "activity": "Jugou",
+          "description": "Ficou me encarando",
+          "time": "10:40"
+        },
+        {
+          "activity": "Sendo Fofo",
+          "description": "Fazendo pãozinho",
+          "time": "12:20"
+        },
+        {
+          "activity": "Spa",
+          "description": "Passou um tempo de qualidade no nosso Spa",
+          "time": "13:30"
+        },
+        {
+          "activity": "fugiu",
+          "description": "Conseguiu escalar as paredes do hophone",
+          "time": "16:11"
+        },
+        {
+          "activity": "Voltou",
+          "description": "Estava aqui o tempo todo",
+          "time": "1:30"
         }
       ],
       "mimos": [
         {
-          "service": "Sortidos",
+          "service": "Spa",
           "done": true
         }
       ],
@@ -153,18 +194,22 @@
       "id": 2
     },
     {
-      "size": "Medio",
-      "age": 4,
+      "size": "Grande",
+      "age": 20,
       "race": "Python",
       "specie": "Reptil",
-      "name": "Python",
+      "name": "Boquinha",
       "hospedado": true,
       "status": [
         {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
+          "activity": "Descansou",
+          "description": "Estava dormindo até tarde",
+          "time": "11:30"
+        },
+        {
+          "activity": "Bronzeado",
+          "description": "Ficou pegando sol",
+          "time": "13:23"
         }
       ],
       "mimos": [
@@ -183,20 +228,8 @@
       "specie": "Pre-historico",
       "name": "Loki",
       "hospedado": false,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": true
-        }
-      ],
+      "status": [],
+      "mimos": [],
       "userId": 4,
       "id": 4
     },
@@ -207,20 +240,8 @@
       "specie": "Aves",
       "name": "Rodolfo",
       "hospedado": false,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": true
-        }
-      ],
+      "status": [],
+      "mimos": [],
       "userId": 5,
       "id": 5
     },
@@ -231,20 +252,8 @@
       "specie": "Aves",
       "name": "Kevin",
       "hospedado": false,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": true
-        }
-      ],
+      "status": [],
+      "mimos": [],
       "userId": 6,
       "id": 6
     },
@@ -254,21 +263,9 @@
       "race": "Sphynx cat",
       "specie": "Gato",
       "name": "Bills",
-      "hospedado": true,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Spa",
-          "done": false
-        }
-      ],
+      "hospedado": false,
+      "status": [],
+      "mimos": [],
       "userId": 6,
       "id": 7
     },
@@ -279,39 +276,20 @@
       "specie": "Gato",
       "name": "Spice",
       "hospedado": false,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
+      "status": [],
       "mimos": [],
       "userId": 7,
       "id": 8
     },
     {
       "size": "Pequeno",
-      "age": 10,
+      "age": 20,
       "race": "Pinscher",
       "specie": "Cachorro",
       "name": "Rex",
       "hospedado": false,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": true
-        }
-      ],
+      "status": [],
+      "mimos": [],
       "userId": 8,
       "id": 9
     },
@@ -324,38 +302,19 @@
       "hospedado": true,
       "status": [
         {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
+          "activity": "Latiu",
+          "description": "Ficou latindo para o avião",
           "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": false
         },
         {
-          "service": "Spa",
-          "done": false
-        }
-      ],
-      "userId": 8,
-      "id": 10
-    },
-    {
-      "size": "Grande",
-      "age": 8,
-      "race": "Rottweiler",
-      "specie": "Cachorro",
-      "name": "Thor",
-      "hospedado": false,
-      "status": [
+          "activity": "Lambeu",
+          "description": "Ficou horas Lambendo a patinha",
+          "time": "12:30"
+        },
         {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
+          "activity": "Fez festa",
+          "description": "Abanou o rabinho para os cuidadores",
+          "time": "13:23"
         }
       ],
       "mimos": [
@@ -364,6 +323,18 @@
           "done": true
         }
       ],
+      "userId": 8,
+      "id": 10
+    },    
+    {
+      "size": "Grande",
+      "age": 8,
+      "race": "Rottweiler",
+      "specie": "Cachorro",
+      "name": "Thor",
+      "hospedado": false,
+      "status": [],
+      "mimos": [],
       "userId": 9,
       "id": 11
     },
@@ -374,20 +345,8 @@
       "specie": "Gato",
       "name": "Mora",
       "hospedado": false,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": true
-        }
-      ],
+      "status": [],
+      "mimos": [],
       "userId": 10,
       "id": 12
     },
@@ -400,9 +359,13 @@
       "hospedado": true,
       "status": [
         {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
+          "activity": "Cocô",
+          "description": "Plantou bananeira",
+          "time": "7:30"
+        },
+        {
+          "activity": "Rolou",
+          "description": "Brincou na grama",
           "time": "9:30"
         }
       ],
@@ -417,27 +380,27 @@
     },
     {
       "size": "Pequeno",
+      "age": 20,
+      "race": "Pinscher",
+      "specie": "Cachorro",
+      "name": "Rex",
+      "hospedado": false,
+      "status": [],
+      "mimos": [],
+      "userId": 12,
+      "id": 14
+    },
+    {
+      "size": "Pequeno",
       "age": 3,
       "race": "SRD",
       "specie": "Gato",
       "name": "Nina",
       "hospedado": false,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": true
-        }
-      ],
-      "userId": 12,
-      "id": 14
+      "status": [],
+      "mimos": [],
+      "userId": 13,
+      "id": 15
     },
     {
       "size": "Grande",
@@ -445,47 +408,23 @@
       "race": "Labrador",
       "specie": "Cachorro",
       "name": "Bento",
-      "hospedado": false,
+      "hospedado": true,
       "status": [
         {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
+          "activity": "Comendo",
+          "description": "Comeu super ração",
           "time": "9:30"
+        },
+        {
+          "activity": "Super",
+          "description": "Virou o super Cão",
+          "time": "10:00"
         }
       ],
       "mimos": [
         {
           "service": "Sortidos",
           "done": true
-        }
-      ],
-      "userId": 13,
-      "id": 15
-    },
-    {
-      "size": "Grande",
-      "age": 9,
-      "race": "Golden",
-      "specie": "Cachorro",
-      "name": "Lucky",
-      "hospedado": true,
-      "status": [
-        {
-          "emoji": ":cego:",
-          "activity": "play",
-          "description": "fugiu",
-          "time": "9:30"
-        }
-      ],
-      "mimos": [
-        {
-          "service": "Sortidos",
-          "done": false
-        },
-        {
-          "service": "Spa",
-          "done": false
         }
       ],
       "userId": 13,
